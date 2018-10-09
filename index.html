@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width" />
+  <title>gulp-project</title>
+  <!-- inject:css -->
+  <!-- <link rel="stylesheet" href="/app/resourse/css/bundle.css"> -->
+  <!-- endinject -->
+</head>
+
+<body>
+  <!-- <h1>Hello World!!</h1>
+    <p>This is a background-image:</p>
+		<div class="bg"></div> -->
+  <div id="app">
+    <input type="text" v-model="word">
+    <p>{{word}}</p>
+    <button v-on:click="sayHi">change model</button>
+  </div>
+  <!-- inject:js -->
+  <script src="/src/bundle.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
